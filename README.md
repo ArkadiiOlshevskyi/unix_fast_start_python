@@ -9,6 +9,7 @@ sudo apt update && sudo apt upgrade && sudo apt install -y vim htop tmux build-e
 
 ### Additional Commands for Customization (you can modify for your own setup):
 
+```bash
 sudo apt update
 sudo apt upgrade
 sudo apt install vim
@@ -34,12 +35,8 @@ sudo apt install gimp
 sudo apt install inkscape
 sudo apt install libreoffice
 
-### Also Condas package:
-wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.9.2-Linux-x86_64.sh -O ~/miniconda.sh
-bash ~/miniconda.sh -b -p $HOME/miniconda
-rm ~/miniconda.sh
-export PATH="$HOME/miniconda/bin:$PATH"
 
 conda create --name myenv python=3.8
 conda activate myenv
 conda install numpy pandas matplotlib
+```
